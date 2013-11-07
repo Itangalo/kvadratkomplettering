@@ -1,0 +1,15 @@
+ClrHome
+Disp "AX²+BX+C":Disp ""
+Input "A=",A
+Input "B=",B
+Input "C=",C
+B/(2A)→D
+C-AD²→E
+ClrHome
+Disp "A(X+D)²+E":Disp ""
+Disp A➤Frac
+Disp D➤Frac
+Disp E➤Frac
+Output(3,1,"A=")
+Output(4,1,"D=")
+Output(5,1,"E=")
